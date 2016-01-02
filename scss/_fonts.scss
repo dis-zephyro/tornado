@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic);
+
+@font-face {
+	font-family:'PitonAstroSityEdited-Regular';
+	src: url('../fonts/PitonAstroSityEdited-Regular/PitonAstroSityEdited_gdi.eot');
+	src: url('../fonts/PitonAstroSityEdited-Regular/PitonAstroSityEdited_gdi.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/PitonAstroSityEdited-Regular/PitonAstroSityEdited_gdi.woff') format('woff'),
+	url('../fonts/PitonAstroSityEdited-Regular/PitonAstroSityEdited_gdi.ttf') format('truetype'),
+	url('../fonts/PitonAstroSityEdited-Regular/PitonAstroSityEdited_gdi.otf') format('opentype'),
+	url('../fonts/PitonAstroSityEdited-Regular/PitonAstroSityEdited_gdi.svg#PitonAstroSityEdited-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}
+
+@font-face {
+	font-family:'PFDinTextCompPro';
+	src: url('../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.eot');
+	src: url('../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.woff') format('woff'),
+	url('../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.ttf') format('truetype'),
+	url('../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.otf') format('opentype'),
+	url('../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.svg#PFDinTextCompPro-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+
+@font-face {
+	font-family:'PFDinTextCompPro';
+	src: url('../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.eot');
+	src: url('../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.woff') format('woff'),
+	url('../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.ttf') format('truetype'),
+	url('../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.otf') format('opentype'),
+	url('../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.svg#PFDinTextCompPro-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}

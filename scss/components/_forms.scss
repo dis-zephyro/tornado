@@ -1,0 +1,113 @@
+.form-control {
+	margin: 0;
+	width: 100%;
+	outline: none;
+	color: #343434;
+	font-size: 16px;
+	background: #fff;
+	line-height: 20px;
+	padding: 4px 10px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #9c9c9c;
+	@include placeholder(#343434);
+	@include border-radius(6px);
+
+	&::-ms-clear {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+
+	&:focus {
+		@include placeholder(transparent);
+	}
+}
+
+
+
+label {
+	font-weight: 400;
+	display: block;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-row {
+	margin: 0 -5px;
+	@include clearfix();
+
+	.form-col {
+		float: left;
+		width: 50%;
+		padding: 0 5px;
+	}
+}
+
+
+.icr-label {
+	color: #fff;
+	height: 21px;
+	margin: 0 3px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+	position: relative;
+	padding-left: 35px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: $font-piton;
+
+	&:before {
+		top: 50%;
+		left: 0;
+		width: 20px;
+		height: 21px;
+		content: ' ';
+		margin-top: -10px;
+		position: absolute;
+		background: url("../img/icon-check.png") 0 0 no-repeat;
+	}
+
+	i {
+		color: #ffd800;
+		font-style: normal;
+	}
+
+	a {
+		color: #ffd800;
+		text-decoration: underline;
+	}
+
+	.icr-hidden {
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 0;
+		display: block;
+		overflow: hidden;
+		position: absolute;
+	}
+
+	.icr-text {
+		height: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.icr-item {
+		display: none;
+	}
+
+	&.checked {
+		color: #fff;
+
+		&:before {
+			background-position: -20px 0;
+		}
+	}
+
+}

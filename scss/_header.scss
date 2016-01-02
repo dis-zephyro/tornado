@@ -1,0 +1,80 @@
+.header {
+	height: 518px;
+	padding-top: 170px;
+	background: url("../img/header-bg.jpg") 50% 0 no-repeat;
+
+	.header-date {
+		color: #fff;
+		height: 65px;
+		font-size: 17px;
+		line-height: 20px;
+		text-align: center;
+
+		font-family: $font-piton;
+		text-transform: uppercase;
+	}
+
+	.header-action {
+		height: 115px;
+		font-size: 22px;
+		line-height: 30px;
+		padding-top: 15px;
+		text-align: center;
+		margin-bottom: 25px;
+		font-family: $font-piton;
+		text-transform: uppercase;
+		span {
+			color: #fbf412;
+			display: block;
+			font-size: 26px;
+			line-height: 64px;
+		}
+	}
+
+	.gift {
+		padding: 0;
+		list-style: none;
+		margin: 0 0 0 390px;
+
+		li {
+			color: #fff;
+			font-size: 17px;
+			line-height: 28px;
+			position: relative;
+			padding: 0 0 12px 40px;
+			font-family: $font-piton;
+			text-transform: uppercase;
+
+			&:before {
+				top: 3px;
+				left: 0;
+				content: '';
+				width: 24px;
+				height: 21px;
+				position: absolute;
+				background: url("../img/sprite.png") no-repeat;
+			}
+
+			&.item1 {
+
+				&:before {
+					background-position: 0 0;
+				}
+			}
+
+			&.item2 {
+
+				&:before {
+					background-position: 0 -21px;
+				}
+			}
+
+			&.item3 {
+
+				&:before {
+					background-position: 0 -42px;
+				}
+			}
+		}
+	}
+}
