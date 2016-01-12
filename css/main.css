@@ -3530,6 +3530,17 @@ ul {
       height: 110px;
       content: ' ';
       position: absolute; }
+    .step li:hover:before {
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+      -moz-transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; }
     .step li.item1 {
       width: 210px; }
       .step li.item1:before {
