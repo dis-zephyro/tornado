@@ -1,0 +1,185 @@
+.gallery {
+	margin-bottom: 20px;
+	@include clearfix();
+
+	.gallery-thumb {
+		float: left;
+		width: 855px;
+		margin-left: -15px;
+
+		li {
+			float: left;
+			width: 135px;
+			height: 155px;
+			overflow: hidden;
+			position: relative;
+			margin: 0 21px 34px 15px;
+			@include box-shadow(4px 6px 23px 0px rgba(0, 0, 0, 0.4));
+
+			.gallery-text {
+				top: 0;
+				left: 0;
+				color: #fff;
+				width: 135px;
+				height: 155px;
+				display: none;
+				font-size: 25px;
+				font-weight: 300;
+				line-height: 30px;
+				position: absolute;
+				text-align: center;
+				font-family: $font-fpdin;
+				padding: 110px 5px 0 5px;
+				background: url("../img/pattern-gray.png");
+				@include transition(.3s);
+			}
+
+			.icon-del {
+				top: 10px;
+				right: 10px;
+				width: 30px;
+				height: 30px;
+				display: none;
+				cursor: pointer;
+				position: absolute;
+				background: url("../img/icon-del.png") 50% 50% no-repeat;
+			}
+
+			&:hover {
+
+				.gallery-text {
+					display: block;
+					@include transition(.3s);
+				}
+
+				.icon-del {
+					display: block;
+				}
+			}
+		}
+	}
+
+	.gallery-img-large {
+		float: left;
+		width: 345px;
+		@include box-shadow(4px 6px 23px 0px rgba(0, 0, 0, 0.4));
+	}
+}
+
+.pagination {
+	width: 488px;
+	height: 91px;
+	margin: 0 auto;
+	padding: 26px 57px 31px 67px;
+	background: url("../img/parination-bg.png") 0 0 no-repeat;
+
+	.pagination-nav {
+		width: 18px;
+		height: 20px;
+		display: block;
+		margin-top: 6px;
+		cursor: pointer;
+		background: url("../img/pagination-arrow.png") no-repeat;
+
+		&.prev {
+			float: left;
+			background-position: 0 0;
+		}
+
+		&.next {
+			float: right;
+			background-position: -18px 0;
+		}
+
+		&:hover {
+
+			&.prev {
+				background-position: 0 -20px;
+			}
+
+			&.next {
+				background-position: -18px -20px;
+			}
+		}
+	}
+
+	.pagination-page {
+		margin: 0 25px;
+		padding: 0;
+		font-size: 0;
+		line-height: 0;
+		list-style: none;
+		text-align: center;
+
+		li {
+			margin: 0 6px;
+			display: inline-block;
+
+			a,
+			span {
+				color: #fff;
+				height: 34px;
+				font-size: 26px;
+				font-weight: 600;
+				padding: 2px 5px;
+				line-height: 26px;
+				text-align: center;
+				display: inline-block;
+				font-family: $font-fpdin;
+				border: 2px solid transparent;
+			}
+
+
+			a {
+				color: #fff;
+				text-decoration: none;
+
+				&:hover {
+					color: #fff600;
+				}
+			}
+
+			&.active {
+
+				a {
+
+					border-color: #fff600;
+				}
+			}
+		}
+	}
+}
+
+.sort {
+	font-size: 0;
+	line-height: 0;
+	text-align: center;
+	position: relative;
+	padding: 5px 0 15px 30px;
+
+	li {
+		height: 30px;
+		color: #b7b7b7;
+		margin: 0 8px;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 30px;
+		display: inline-block;
+	}
+
+	.sort-direction {
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		color: transparent;
+		background: url("../img/icon-direction.png") 50% 50% no-repeat;
+	}
+
+	.sort-type {
+		cursor: pointer;
+
+		&.active {
+			text-decoration: underline;
+		}
+	}
+}

@@ -1,5 +1,6 @@
 .btn {
 	margin:0;
+	min-width: 270px;
 	color: #ffd800;
 	outline: none;
 	cursor: pointer;
@@ -44,6 +45,13 @@
 
 	i {
 		font-size: 16px;
+	}
+
+	&.btn-yellow-dark {
+
+		&:hover {
+			background: #181818;
+		}
 	}
 }
 
