@@ -45,6 +45,47 @@
 				background: url("../img/icon-del.png") 50% 50% no-repeat;
 			}
 
+			.like {
+				display: block;
+				overflow: hidden;
+				margin-top: -20px;
+				height: 57px;
+				position: relative;
+				background: url("../img/like.png") 50% 0 no-repeat;
+
+				.like-minus {
+					top: 0;
+					right: 10px;
+					width: 56px;
+					height: 40px;
+					display: block;
+					cursor: pointer;
+					font-size: 15px;
+					text-align: right;
+					line-height: 20px;
+					position: absolute;
+					padding-left: 37px;
+					padding-top: 3px;
+					font-family: $font-piton;
+				}
+
+				.like-plus {
+					top: 17px;
+					left: 10px;
+					width: 56px;
+					height: 40px;
+					color: #fffb14;
+					display: block;
+					cursor: pointer;
+					font-size: 15px;
+					line-height: 20px;
+					position: absolute;
+					text-align: left;
+					padding-top: 10px;
+					font-family: $font-piton;
+				}
+			}
+
 			&:hover {
 
 				.gallery-text {
