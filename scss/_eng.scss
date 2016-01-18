@@ -1,0 +1,182 @@
+.en {
+
+	.header {
+		background: url("../img/en/en_header-bg.jpg") 50% 0 no-repeat;
+
+		.header-action {
+			font-size: 30px;
+			line-height: 40px;
+			font-style: italic;
+			padding-top: 30px;
+			margin-bottom: 40px;
+			font-family: $font-veneer;
+
+			span {
+				font-size: 40px;
+				line-height: 50px;
+				font-family: $font-veneer;
+			}
+		}
+
+		.gift {
+			margin: 0 0 0 440px;
+
+			li {
+				color: #c2c2c2;
+				font-size: 20px;
+				font-style: italic;
+				font-family: $font-veneer;
+			}
+		}
+	}
+
+	.content-logo {
+		width: 585px;
+		height: 141px;
+		margin: 0 auto 25px auto;
+		background: url("../img/en/content-logo.png") 0 0 no-repeat;
+	}
+
+	.action {
+
+		.action-one {
+			background: url("../img/en/en_action-one.png") 0 0 no-repeat;
+		}
+
+		.action-two {
+			background: url("../img/en/en_action-two.png") 0 0 no-repeat;
+		}
+
+		.action-three {
+			background: url("../img/en/en_action-three.png") 0 0 no-repeat;
+		}
+
+		.action-text {
+			color: #c4c2c2;
+			font-size: 22px;
+			font-weight: 300;
+			font-family: $font-fpdin;
+		}
+	}
+
+	.step {
+		margin: 0 -5px;
+		padding: 0;
+		position: relative;
+		background: url("../img/en/en_step-bg.png") 50% 0 no-repeat;
+
+		li {
+			float: left;
+			font-size: 24px;
+			font-weight: 300;
+			line-height: 25px;
+			text-align: center;
+			position: relative;
+			padding-top: 192px;
+			font-family: $font-fpdin;
+
+			span {
+				color: #ffc000;
+			}
+
+			&:before {
+				display: none;
+			}
+
+			&.item1 {
+				width: 25%;
+			}
+
+			&.item2 {
+				width: 25%;
+			}
+
+			&.item3 {
+				width: 25%;
+			}
+
+			&.item4 {
+				width: 25%;
+			}
+		}
+	}
+
+	.form-block {
+
+		&.form-reg {
+			height: 830px;
+			background: url("../img/en/form-bg.png") 50% 0 no-repeat;
+		}
+
+		.form-block-line {
+			height: 75px;
+		}
+
+		.reg-social {
+			width: 560px;
+			height: 80px;
+			margin: 0 auto;
+			padding-top: 10px;
+			text-align: center;
+
+			.reg-social-link {
+				color: #2b2b2b;
+				font-size: 28px;
+				font-weight: 300;
+				line-height: 30px;
+				display: inline-block;
+				font-family: $font-fpdin;
+				padding-right: 30px;
+				background: url("../img/icon-fb.png") 100% 50% no-repeat;
+			}
+		}
+
+		.action-valid {
+			padding-top: 15px;
+		}
+	}
+
+	.footer {
+		height: 150px;
+		background: #262626;
+
+		&.footer-form {
+			margin-top: -150px;
+			background: transparent;
+		}
+
+
+		.copyright {
+			padding: 10px 0 0 0;
+		}
+
+		.footer-row {
+			width: 100%;
+			height: 150px;
+		}
+
+		.footer-col {
+			height: 150px;
+			position: relative;
+
+			&.col-one {
+				width: 415px;
+			}
+
+		}
+
+		.ign-logo {
+			top: 90px;
+			left: 160px;
+			display: block;
+			position: absolute;
+		}
+
+		.swiss-logo {
+			top: 88px;
+			left: 230px;
+			display: block;
+			position: absolute;
+		}
+	}
+}

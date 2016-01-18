@@ -11,6 +11,14 @@
   unicode-range: U+0020-2265; }
 @font-face {
   font-family: 'PFDinTextCompPro';
+  src: url("../fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light_gdi.eot");
+  src: url("../fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light_gdi.woff") format("woff"), url("../fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light_gdi.ttf") format("truetype"), url("../fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light_gdi.otf") format("opentype"), url("../fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light_gdi.svg#PFDinTextCompPro-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA; }
+@font-face {
+  font-family: 'PFDinTextCompPro';
   src: url("../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.eot");
   src: url("../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.woff") format("woff"), url("../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.ttf") format("truetype"), url("../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.otf") format("opentype"), url("../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular_gdi.svg#PFDinTextCompPro-Regular") format("svg");
   font-weight: 400;
@@ -23,6 +31,14 @@
   src: url("../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.woff") format("woff"), url("../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.ttf") format("truetype"), url("../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.otf") format("opentype"), url("../fonts/PFDinTextCompPro-Medium/PFDinTextCompPro-Medium_gdi.svg#PFDinTextCompPro-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA; }
+@font-face {
+  font-family: 'Veneer';
+  src: url("../fonts/Veneer/Veneer-Italic_gdi.eot");
+  src: url("../fonts/Veneer/Veneer-Italic_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/Veneer/Veneer-Italic_gdi.woff") format("woff"), url("../fonts/Veneer/Veneer-Italic_gdi.ttf") format("truetype"), url("../fonts/Veneer/Veneer-Italic_gdi.otf") format("opentype"), url("../fonts/Veneer/Veneer-Italic_gdi.svg#Veneer-Italic") format("svg");
+  font-weight: 400;
+  font-style: italic;
   font-stretch: normal;
   unicode-range: U+0020-25CA; }
 /*!
@@ -3980,5 +3996,116 @@ ul {
     cursor: pointer; }
     .sort .sort-type.active {
       text-decoration: underline; }
+
+.en .header {
+  background: url("../img/en/en_header-bg.jpg") 50% 0 no-repeat; }
+  .en .header .header-action {
+    font-size: 30px;
+    line-height: 40px;
+    font-style: italic;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    font-family: "Veneer"; }
+    .en .header .header-action span {
+      font-size: 40px;
+      line-height: 50px;
+      font-family: "Veneer"; }
+  .en .header .gift {
+    margin: 0 0 0 440px; }
+    .en .header .gift li {
+      color: #c2c2c2;
+      font-size: 20px;
+      font-style: italic;
+      font-family: "Veneer"; }
+.en .content-logo {
+  width: 585px;
+  height: 141px;
+  margin: 0 auto 25px auto;
+  background: url("../img/en/content-logo.png") 0 0 no-repeat; }
+.en .action .action-one {
+  background: url("../img/en/en_action-one.png") 0 0 no-repeat; }
+.en .action .action-two {
+  background: url("../img/en/en_action-two.png") 0 0 no-repeat; }
+.en .action .action-three {
+  background: url("../img/en/en_action-three.png") 0 0 no-repeat; }
+.en .action .action-text {
+  color: #c4c2c2;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: "PFDinTextCompPro"; }
+.en .step {
+  margin: 0 -5px;
+  padding: 0;
+  position: relative;
+  background: url("../img/en/en_step-bg.png") 50% 0 no-repeat; }
+  .en .step li {
+    float: left;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    position: relative;
+    padding-top: 192px;
+    font-family: "PFDinTextCompPro"; }
+    .en .step li span {
+      color: #ffc000; }
+    .en .step li:before {
+      display: none; }
+    .en .step li.item1 {
+      width: 25%; }
+    .en .step li.item2 {
+      width: 25%; }
+    .en .step li.item3 {
+      width: 25%; }
+    .en .step li.item4 {
+      width: 25%; }
+.en .form-block.form-reg {
+  height: 830px;
+  background: url("../img/en/form-bg.png") 50% 0 no-repeat; }
+.en .form-block .form-block-line {
+  height: 75px; }
+.en .form-block .reg-social {
+  width: 560px;
+  height: 80px;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center; }
+  .en .form-block .reg-social .reg-social-link {
+    color: #2b2b2b;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 30px;
+    display: inline-block;
+    font-family: "PFDinTextCompPro";
+    padding-right: 30px;
+    background: url("../img/icon-fb.png") 100% 50% no-repeat; }
+.en .form-block .action-valid {
+  padding-top: 15px; }
+.en .footer {
+  height: 150px;
+  background: #262626; }
+  .en .footer.footer-form {
+    margin-top: -150px;
+    background: transparent; }
+  .en .footer .copyright {
+    padding: 10px 0 0 0; }
+  .en .footer .footer-row {
+    width: 100%;
+    height: 150px; }
+  .en .footer .footer-col {
+    height: 150px;
+    position: relative; }
+    .en .footer .footer-col.col-one {
+      width: 415px; }
+  .en .footer .ign-logo {
+    top: 90px;
+    left: 160px;
+    display: block;
+    position: absolute; }
+  .en .footer .swiss-logo {
+    top: 88px;
+    left: 230px;
+    display: block;
+    position: absolute; }
 
 /*# sourceMappingURL=main.css.map */
